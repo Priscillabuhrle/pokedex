@@ -1,0 +1,112 @@
+/* barra de navegación*/
+
+.text_logo{
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+}
+
+/*cabecera*/
+
+.cabecera{
+    background-image: url(../img/header.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 25em;
+    margin-top: 75px;
+}
+
+/* sección buscador*/
+
+.contenedor_pokemon{
+    height: 150px;
+    padding-top: 20px;
+}
+
+
+/*sección resultado*/
+
+.contenedorResultado{
+    background-color: #ffdd00;
+}
+
+span{
+    font-size: 25px;
+}
+
+#imgpoke{
+    width: 230px ;
+    border-radius: 250px;
+    margin-bottom: 30px;
+    background-color: white;
+    margin-top: 25px;
+}
+
+::marker{
+    color: white;
+}
+
+/*grafico*/
+
+
+.canvasjs-chart-canvas{
+    margin-top: 60px !important;
+    display: block !important;
+    position: relative !important;
+    margin: auto;
+    width: 80% !important;
+    border-radius: 10px;
+}
+.canvasjs-chart-container{
+    padding-bottom: -300px !important;
+}
+/*<canvas class="canvasjs-chart-canvas" width="500" height="400" style="position: absolute; -webkit-tap-highlight-color: transparent; user-select: none; cursor: default;"></canvas>*/
+
+/*footer*/
+.git{
+    display: inline-block;
+    color: white;
+    font-size: 40px;
+    margin-left: 100px;
+}
+
+
+
+
+@media (max-width: 575.98px) { 
+    #movimientos{
+        padding-left: 90px;
+        padding-top: 20px;
+    }
+    #movimientos h5{
+        padding-left: 30px;
+    }
+    .pris{
+        text-align: center !important;
+        padding-bottom: 15px;
+    }
+    .git{
+        font-size: 50px !important;
+        margin-left: 190px;
+    }
+ }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    
+ }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    
+ }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+ }
+
+
+@media (min-width: 1200px) { 
+
+ }
